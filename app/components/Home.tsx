@@ -1,12 +1,12 @@
 import { getCourses } from '@/queries/courses'
 import React from 'react'
 
-const Test = async () => {
+const Home = async () => {
     const courses = await getCourses();
     console.log("Courses ", courses);
   return (
-    <div>Test</div>
+    <div>Home</div>
   )
 }
 
-export default Test
+export default Home;
